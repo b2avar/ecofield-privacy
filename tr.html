@@ -17,7 +17,7 @@
 <li>Hesap bilgileri: ad, e-posta adresi, şifrenizin geri döndürülemez özeti, Google veya Apple ile giriş yaptıysanız bu hesaba ait kimlik, profil fotoğrafı, dil tercihi.</li>
 <li>Tarama ve keşif verileri: kameranızla çektiğiniz veya galeriden seçtiğiniz fotoğraflar, fotoğrafın çekildiği konum (GPS), yapay zekâ analiz sonuçları, zaman yolculuğu görselleri.</li>
 <li>Oyun ve topluluk verileri: puan, seviye, rozetler, görevler, ana kamp konumu, arkadaş listesi, topluluk paylaşımları, beğeniler, şikâyet ve engelleme kayıtları.</li>
-<li>Kullanım ve teknik veriler: uygulama içi kullanım olayları (örneğin hangi ekranın açıldığı, taramanın başlatılıp tamamlandığı), cihaz ve uygulama sürümü bilgileri, IP adresi ve sunucu istek kayıtları.</li>
+<li>Kullanım ve teknik veriler: cihaz ve uygulama sürümü bilgileri, IP adresi ve sunucu istek kayıtları.</li>
 </ul>
 <h2>3. İşleme Amaçları ve Hukuki Sebepler</h2>
 <ul>
@@ -31,14 +31,12 @@
 <p>Hizmeti sunabilmek için verileriniz aşağıdaki hizmet sağlayıcılarla, yalnızca ilgili amaç için gerekli olduğu kadar paylaşılır:</p>
 <ul>
 <li>Google Cloud (Vertex AI üzerinden Gemini yapay zekâ servisi): tarama fotoğrafları, analiz için adınız, e-postanız veya hesap kimliğiniz eklenmeden iletilir. Fotoğrafın içeriği değiştirilmediği için taramalarda kişilerin veya özel alanların görünmemesine dikkat etmenizi öneririz.</li>
-<li>Cloudinary: fotoğrafların ve profil görsellerinin saklanması.</li>
-<li>Render ve MongoDB: uygulama sunucusunun ve veritabanının barındırılması.</li>
-<li>PostHog: kullanım analizi (kullanım olayları, cihaz bilgisi ve rastgele bir kullanıcı kimliği; adınız ve e-postanız gönderilmez).</li>
+<li>Tres Teknoloji (İstanbul): uygulama sunucusunun, veritabanının, fotoğrafların ve şifreli yedeklerin barındırılması.</li>
 <li>SenderTR (sunucuları Türkiye&#x27;de): hizmet e-postalarının gönderilmesi.</li>
 <li>Google ve Apple: bu hesaplarla giriş yapmayı seçerseniz kimlik doğrulama.</li>
 <li>Open-Meteo ve OpenStreetMap: hava durumu ve yer adı bilgisi için yalnızca konum koordinatları, kimlik bilgisi eklenmeden.</li>
 </ul>
-<p>Bu hizmet sağlayıcıların sunucuları Türkiye dışında (ağırlıklı olarak ABD ve Avrupa Birliği&#x27;nde) bulunduğundan verileriniz yurt dışına aktarılır. Bu hizmet sağlayıcılarla KVKK&#x27;nın 9. maddesinde öngörülen standart sözleşmelerin imzalanması için çalışmalarımız sürmektedir. Verileriniz yetkili kamu kurumlarına yalnızca kanunen zorunlu olduğunda aktarılır; verileriniz satılmaz.</p>
+<p>Hesap bilgileriniz, keşifleriniz, fotoğraflarınız ve yedekler Türkiye&#x27;de (İstanbul) saklanır. Yurt dışına yalnızca şu aktarımlar yapılır: tarama analizi için Google Cloud&#x27;a (KVKK&#x27;nın 9. maddesi kapsamında Google ile imzalanan standart sözleşmeye dayanarak), Google veya Apple ile giriş yapmayı seçerseniz kimlik doğrulama için bu şirketlere ve hava durumu ile yer adı için Open-Meteo ve OpenStreetMap&#x27;e yalnızca konum koordinatları. Verileriniz yetkili kamu kurumlarına yalnızca kanunen zorunlu olduğunda aktarılır; verileriniz satılmaz.</p>
 <h2>5. Topluluk İçerikleri ve Şikâyetler</h2>
 <p>Toplulukta paylaştığınız fotoğraflar ve metinler diğer kullanıcılar tarafından görülebilir. Uygunsuz olduğunu veya telif hakkınızı ihlal ettiğini düşündüğünüz bir paylaşımı uygulama içindeki şikâyet seçeneğiyle ya da <a href="mailto:burakavar@gmail.com">burakavar@gmail.com</a> adresine yazarak bildirebilirsiniz. Şikâyetler incelenir; birden fazla kullanıcı tarafından şikâyet edilen paylaşımlar inceleme tamamlanana kadar gizlenir, hukuka aykırı bulunan içerikler kaldırılır.</p>
 <h2>6. Saklama Süreleri</h2>
@@ -46,7 +44,7 @@
 <li>Hesap verileriniz, hesabınız açık olduğu sürece saklanır.</li>
 <li>Hesabınızı sildiğinizde hesabınız, keşifleriniz, zaman yolculuklarınız, paylaşımlarınız ve bunlara ait fotoğraflar silinir. Tek bir keşfi sildiğinizde o keşfin fotoğrafı da silinir.</li>
 <li>Uygulamayı hesap oluşturmadan (misafir olarak) kullandığınızda oluşan veriler (misafir hesabı, taramalar, fotoğraflar ve konum bilgisi), son etkinliğinizden itibaren otuz gün içinde hesap oluşturmazsanız otomatik olarak silinir.</li>
-<li>Kullanım analizi verileri ve sunucu kayıtları, ilgili hizmet sağlayıcının saklama süresi boyunca tutulur ve süre sonunda silinir.</li>
+<li>Sunucu kayıtları ve şifreli veritabanı yedekleri yalnızca güvenlik ve geri yükleme amacıyla sınırlı bir süre saklanır ve süre sonunda silinir.</li>
 </ul>
 <h2>7. KVKK Kapsamındaki Haklarınız</h2>
 <p>KVKK&#x27;nın 11. maddesi uyarınca; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, silinmesini veya yok edilmesini isteme, bu işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonuç çıkmasına itiraz etme ve kanuna aykırı işleme nedeniyle zarara uğramanız halinde zararın giderilmesini talep etme haklarına sahipsiniz.</p>
